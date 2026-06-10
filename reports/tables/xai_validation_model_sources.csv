@@ -1,0 +1,17 @@
+model,model_display,horizon,technique,model_source,model_path,n_validation_used
+baseline_seasonal_naive,Modelo base ingenuo estacional,1,Regla explícita,seasonal_naive_rule,no_aplica,8437
+baseline_seasonal_naive,Modelo base ingenuo estacional,4,Regla explícita,seasonal_naive_rule,no_aplica,8437
+baseline_seasonal_naive,Modelo base ingenuo estacional,12,Regla explícita,seasonal_naive_rule,no_aplica,8437
+baseline_seasonal_naive,Modelo base ingenuo estacional,24,Regla explícita,seasonal_naive_rule,no_aplica,8437
+linear_regression,Regresión lineal,1,Coeficientes estandarizados,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_linear_regression_h01_median.joblib,8437
+linear_regression,Regresión lineal,4,Coeficientes estandarizados,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_linear_regression_h04_median.joblib,8437
+linear_regression,Regresión lineal,12,Coeficientes estandarizados,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_linear_regression_h12_median.joblib,8437
+linear_regression,Regresión lineal,24,Coeficientes estandarizados,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_linear_regression_h24_median.joblib,8437
+lightgbm,LightGBM,1,SHAP global,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_lightgbm_h01_median.joblib,2500
+lightgbm,LightGBM,4,SHAP global,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_lightgbm_h04_median.joblib,2500
+lightgbm,LightGBM,12,SHAP global,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_lightgbm_h12_median.joblib,2500
+lightgbm,LightGBM,24,SHAP global,cqr_median_q0.50,models\cqr_mapie\cqr_mapie_lightgbm_h24_median.joblib,2500
+catboost,CatBoost,1,SHAP global,cqr_multiquantile_q0.50_component,models\cqr_mapie\cqr_mapie_catboost_h01_multiquantile.joblib,2500
+catboost,CatBoost,4,SHAP global,cqr_multiquantile_q0.50_component,models\cqr_mapie\cqr_mapie_catboost_h04_multiquantile.joblib,2500
+catboost,CatBoost,12,SHAP global,cqr_multiquantile_q0.50_component,models\cqr_mapie\cqr_mapie_catboost_h12_multiquantile.joblib,2500
+catboost,CatBoost,24,SHAP global,cqr_multiquantile_q0.50_component,models\cqr_mapie\cqr_mapie_catboost_h24_multiquantile.joblib,2500

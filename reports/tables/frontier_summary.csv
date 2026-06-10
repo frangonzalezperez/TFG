@@ -1,0 +1,3 @@
+criterion,definition,frontier_horizon
+Frontera estricta,"Cobertura >= 0.75 y F(h) <= 0.25, de forma contigua desde h=1",1
+Frontera moderada,"Cobertura >= 0.70 y F(h) <= 0.60, de forma contigua desde h=1",4

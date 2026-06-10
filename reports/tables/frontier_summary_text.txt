@@ -1,0 +1,5 @@
+Resumen de los resultados del notebook:
+- En el conjunto de prueba (2025), CatBoost + CQR alcanzó en h=1 una cobertura de 0.771, con MAE=6.916, interval score=33.947 y F(h)=0.000.
+- En h=24, la cobertura fue de 0.695, con MAE=16.365, interval score=73.274 y F(h)=0.966.
+- La frontera estricta, definida por una cobertura >= 0.75 y un F(h) <= 0.25, queda en h = 1.
+- La frontera moderada, definida por una cobertura >= 0.70 y un F(h) <= 0.60, queda en h = 4.

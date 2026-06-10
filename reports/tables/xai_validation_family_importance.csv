@@ -1,0 +1,89 @@
+model,model_display,horizon,family,importance_abs,importance_relative,n_features
+baseline_seasonal_naive,Modelo base ingenuo estacional,1,Persistencia diaria,1.0,1.0,1
+baseline_seasonal_naive,Modelo base ingenuo estacional,4,Persistencia diaria,1.0,1.0,1
+baseline_seasonal_naive,Modelo base ingenuo estacional,12,Persistencia diaria,1.0,1.0,1
+baseline_seasonal_naive,Modelo base ingenuo estacional,24,Persistencia diaria,1.0,1.0,1
+linear_regression,Regresión lineal,1,Memoria reciente,32.98012917492364,0.768827673507667,6
+linear_regression,Regresión lineal,1,Persistencia diaria,1.051755025529898,0.024518350582840638,2
+linear_regression,Regresión lineal,1,Ventanas móviles,5.925729013262372,0.13813967880293912,5
+linear_regression,Regresión lineal,1,Calendario horario,1.465486880171855,0.03416320362672277,2
+linear_regression,Regresión lineal,1,Calendario mensual,0.2819494714756392,0.006572762497429906,2
+linear_regression,Regresión lineal,1,Calendario semanal,1.1161137383960753,0.026018670949095407,3
+linear_regression,Regresión lineal,1,Calidad de ventana,0.07548351496972219,0.0017596600333051012,1
+linear_regression,Regresión lineal,4,Memoria reciente,23.542478438294705,0.411379837992551,6
+linear_regression,Regresión lineal,4,Persistencia diaria,8.496368378858797,0.14846502488601798,2
+linear_regression,Regresión lineal,4,Ventanas móviles,11.751088160109699,0.20533780061485635,5
+linear_regression,Regresión lineal,4,Calendario horario,6.902086663124768,0.12060664304010654,2
+linear_regression,Regresión lineal,4,Calendario mensual,1.9549917245763917,0.03416140662678968,2
+linear_regression,Regresión lineal,4,Calendario semanal,4.554298795232159,0.07958154046791965,3
+linear_regression,Regresión lineal,4,Calidad de ventana,0.02676822696381351,0.0004677463717587707,1
+linear_regression,Regresión lineal,12,Memoria reciente,14.587733377088094,0.3578727900019373,6
+linear_regression,Regresión lineal,12,Persistencia diaria,3.892540103126404,0.0954935321952219,1
+linear_regression,Regresión lineal,12,Ventanas móviles,3.0152792427632336,0.07397217698929505,5
+linear_regression,Regresión lineal,12,Calendario horario,7.613949574276791,0.18678881130088282,2
+linear_regression,Regresión lineal,12,Calendario mensual,4.7079590093195725,0.11549775296320028,2
+linear_regression,Regresión lineal,12,Calendario semanal,6.880282912427739,0.16879017310122177,3
+linear_regression,Regresión lineal,12,Calidad de ventana,0.06459867107685477,0.0015847634482407953,1
+linear_regression,Regresión lineal,24,Memoria reciente,13.159208807061958,0.3223427079979237,6
+linear_regression,Regresión lineal,24,Persistencia diaria,4.212232988218985,0.1031811720634779,1
+linear_regression,Regresión lineal,24,Ventanas móviles,3.7847215171343302,0.09270902230811802,5
+linear_regression,Regresión lineal,24,Calendario horario,5.580627973821801,0.13670082751824028,2
+linear_regression,Regresión lineal,24,Calendario mensual,6.47759811865795,0.15867264890347507,2
+linear_regression,Regresión lineal,24,Calendario semanal,7.071596500759697,0.1732229953445399,3
+linear_regression,Regresión lineal,24,Calidad de ventana,0.537673139694994,0.0131706258642252,1
+lightgbm,LightGBM,1,Memoria reciente,20.719003914620338,0.8039129240869566,6
+lightgbm,LightGBM,1,Persistencia diaria,0.9000756573585686,0.03492361199352936,2
+lightgbm,LightGBM,1,Ventanas móviles,0.8000020027355552,0.031040678979781286,5
+lightgbm,LightGBM,1,Calendario horario,2.7586224155504926,0.10703662307685113,2
+lightgbm,LightGBM,1,Calendario mensual,0.3195497759023883,0.012398771475483262,2
+lightgbm,LightGBM,1,Calendario semanal,0.27442292190027473,0.010647815623301356,3
+lightgbm,LightGBM,1,Calidad de ventana,0.0010199483895288448,3.95747640969033e-05,1
+lightgbm,LightGBM,4,Memoria reciente,11.347899966120691,0.36835610854514006,6
+lightgbm,LightGBM,4,Persistencia diaria,7.912550443970376,0.25684367142023934,2
+lightgbm,LightGBM,4,Ventanas móviles,1.9184665495336723,0.06227397797566467,5
+lightgbm,LightGBM,4,Calendario horario,6.765364506593757,0.2196056847503394,2
+lightgbm,LightGBM,4,Calendario mensual,1.2204781033757874,0.039617071534491594,2
+lightgbm,LightGBM,4,Calendario semanal,1.633035222181171,0.05300879469820016,3
+lightgbm,LightGBM,4,Calidad de ventana,0.009078510639369477,0.0002946910759248603,1
+lightgbm,LightGBM,12,Memoria reciente,9.837303380332875,0.3267555086672042,6
+lightgbm,LightGBM,12,Persistencia diaria,3.0146199686281636,0.10013350642989674,1
+lightgbm,LightGBM,12,Ventanas móviles,3.8610595242793724,0.1282488116990013,5
+lightgbm,LightGBM,12,Calendario horario,7.158610470197957,0.23778014310470078,2
+lightgbm,LightGBM,12,Calendario mensual,3.2346955246330698,0.10744352803514357,2
+lightgbm,LightGBM,12,Calendario semanal,2.9229503266145223,0.0970886109593156,3
+lightgbm,LightGBM,12,Calidad de ventana,0.07676703749060942,0.0025498911047378537,1
+lightgbm,LightGBM,24,Memoria reciente,10.921749777918947,0.37524646231991676,6
+lightgbm,LightGBM,24,Persistencia diaria,2.431170065746032,0.08352946963806995,1
+lightgbm,LightGBM,24,Ventanas móviles,2.510745616743643,0.08626350444075165,5
+lightgbm,LightGBM,24,Calendario horario,5.382315351366727,0.18492410426522157,2
+lightgbm,LightGBM,24,Calendario mensual,4.530688097116561,0.15566413028022053,2
+lightgbm,LightGBM,24,Calendario semanal,3.0993992244383324,0.10648830250981867,3
+lightgbm,LightGBM,24,Calidad de ventana,0.22946882602315005,0.007884026546000816,1
+catboost,CatBoost,1,Memoria reciente,18.77721097149509,0.6914357124712898,6
+catboost,CatBoost,1,Persistencia diaria,1.7068684690839984,0.06285224242340737,2
+catboost,CatBoost,1,Ventanas móviles,1.6877681948056524,0.06214891050824203,5
+catboost,CatBoost,1,Calendario horario,3.4290062720019807,0.126266749537481,2
+catboost,CatBoost,1,Calendario mensual,0.9937137447275122,0.03659165208939828,2
+catboost,CatBoost,1,Calendario semanal,0.49754198890481405,0.018321054181317055,3
+catboost,CatBoost,1,Calidad de ventana,0.06473319022937495,0.0023836787888645416,1
+catboost,CatBoost,4,Memoria reciente,10.43841506223788,0.31950971284330304,6
+catboost,CatBoost,4,Persistencia diaria,5.395305571844471,0.16514504584111883,2
+catboost,CatBoost,4,Ventanas móviles,3.5495037052473943,0.10864684943431407,5
+catboost,CatBoost,4,Calendario horario,8.90186092087497,0.2724772879447095,2
+catboost,CatBoost,4,Calendario mensual,2.3844393057709894,0.07298536351895564,2
+catboost,CatBoost,4,Calendario semanal,1.9070131240200872,0.058371813346291594,3
+catboost,CatBoost,4,Calidad de ventana,0.0935647909174702,0.002863927071307267,1
+catboost,CatBoost,12,Memoria reciente,7.792405034287584,0.2391917976893108,6
+catboost,CatBoost,12,Persistencia diaria,2.754199975904863,0.08454155559597004,1
+catboost,CatBoost,12,Ventanas móviles,4.467395496007618,0.13712895505012532,5
+catboost,CatBoost,12,Calendario horario,9.073911574703484,0.27852828646317906,2
+catboost,CatBoost,12,Calendario mensual,5.060051682432343,0.15532083522304568,2
+catboost,CatBoost,12,Calendario semanal,3.2921933142733386,0.10105553211323333,3
+catboost,CatBoost,12,Calidad de ventana,0.13790416682038406,0.004233037865135812,1
+catboost,CatBoost,24,Memoria reciente,7.638412823657097,0.25550319860679227,6
+catboost,CatBoost,24,Persistencia diaria,2.5362125229854287,0.08483574100137824,1
+catboost,CatBoost,24,Ventanas móviles,2.7054372624290903,0.09049627064404757,5
+catboost,CatBoost,24,Calendario horario,7.073873121975505,0.23661947199366173,2
+catboost,CatBoost,24,Calendario mensual,6.787707490052055,0.22704729568220008,2
+catboost,CatBoost,24,Calendario semanal,3.0821499499184952,0.10309722568947295,3
+catboost,CatBoost,24,Calidad de ventana,0.07177316751676266,0.0024007963824471635,1

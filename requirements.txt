@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+scipy
+statsmodels
+scikit-learn
+lightgbm
+catboost
+mapie
+jupyter
+ipykernel
+ipython
+pyarrow
+joblib
+Pillow

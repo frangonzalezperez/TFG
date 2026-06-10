@@ -1,0 +1,73 @@
+# ==========================
+# Entornos virtuales Python
+# ==========================
+.venv/
+venv/
+env/
+
+# ==========================
+# Archivos generados por Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==========================
+# Jupyter notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Caches de herramientas
+# ==========================
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ==========================
+# Archivos de entorno y credenciales
+# ==========================
+.env
+
+# ==========================
+# Datos
+# ==========================
+
+# Se ignoran por defecto los datos brutos, salvo el dataset con las medidas de O3 y el README que documenta su procedencia.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/Eixample_O3_2020_2025.csv
+!data/raw/README.md
+
+# Los datos procesados se vuelven a generar.
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/README.md
+
+# ==========================
+# Figuras
+# ==========================
+
+# Figuras exploratorias o generadas automáticamente.
+# reports/figures/generated/*
+# !reports/figures/generated/.gitkeep
+
+# Figuras finales usadas en la memoria.
+
+# ==========================
+# Notebooks
+# ==========================
+
+notebooks/antiguo/*
+
+# ==========================
+# Sistema operativo
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
